@@ -14,9 +14,15 @@
     <header class="header">
         <i class="header__i"><img src="img/casa.png" alt="Icono Menu" width="20" class="header__img"></i>
         <img class="header__img" src="img/adidas.png" alt="Logo Adidas" width="20">
-        <i class="header__i"><img src="img/carrito-de-compras.png" alt="Icono Carrito" width="20" class="header__img"></i>
+        <i class="header__i"><img src="img/carrito-de-compras.png" alt="Icono Carrito" width="20" class="header__img"><span class="badge">2</span></i>
     </header>
     <main>
+        <section class="menu">
+            <p>Playeras</p>
+            <p>tenis</p>
+            <p>chamarras</p>
+            <i class="close-icon">x</i>
+        </section>
         <section class="banner">
             <h2 class="banner__h2">Productos Nuevos</h2>
             <p class="banner__p">Conoce nuestros productos nuevos</p>
@@ -26,42 +32,58 @@
                 <img src="img/jersey.jpeg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Jersey México 2023</h3>
                 <p class="products__p">$1,000.00</p>
+                <button>Agregar al carrito</button>
             </article>
             <article class="products__article">
                 <img src="img/Chaqueta-Adidas-outdoor1.jpg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Chamarra Adidas especial</h3>
                 <p class="products__p">$2,000.00</p>
+                <button>Agregar al carrito</button>
             </article>
             <article class="products__article">
                 <img src="img/shoes.jpg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Adidas LG2</h3>
                 <p class="products__p">$2,300.00</p>
+                <button>Agregar al carrito</button>
             </article>
             <article class="products__article">
                 <img src="img/jersey.jpeg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Jersey México 2023</h3>
                 <p class="products__p">$1,000.00</p>
+                <button>Agregar al carrito</button>
             </article>
             <article class="products__article">
                 <img src="img/Chaqueta-Adidas-outdoor1.jpg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Chamarra Adidas especial</h3>
                 <p class="products__p">$2,000.00</p>
+                <button>Agregar al carrito</button>
             </article>
             <article class="products__article">
                 <img src="img/playera.jpg" alt="" width="100" class="products__img">
                 <h3 class="products__h3">Adidas LG2</h3>
                 <p class="products__p">$2,300.00</p>
+                <button>Agregar al carrito</button>
             </article>
         </section>
         <section class="cart">
             <h2 class="cart__h2">CARRITO</h2>
             <div class="cart__body">
-                <img src="img/chamarra.jpg" alt="" width="100" class="cart__img">
-                <p class="cart__p">$1,700</p>
-                <p class="cart__P">Chamarra</p>
-                <i class="fas fa-trash-alt cart__i"></i>
+                <div class="cart__item">
+                    <img src="img/chamarra.jpg" alt="" width="100" class="cart__img">
+                    <p class="cart__p">$1,700</p>
+                    <p class="cart__P">Chamarra</p>
+                    <i class="fas fa-trash-alt cart__i"></i>
+                </div>
+                <div class="cart__item">
+                    <img src="img/playera.jpg" alt="" width="100" class="cart__img">
+                    <p class="cart__p">$1,700</p>
+                    <p class="cart__P">Chamarra</p>
+                    <i class="fas fa-trash-alt cart__i"></i>
+                </div>
             </div>
+            <button class="button_cart">Buy</button>
         </section>
     </main>
+    <script src="./js/functions.js"></script>
 </body>
 </html>
